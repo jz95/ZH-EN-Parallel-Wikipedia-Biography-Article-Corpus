@@ -1,5 +1,5 @@
 # ZH-EN Parallel Wikipedia Biography Article Corpus
-We compiled a small parallel ZH-EN Wikipedia Biography article corpus with preserved document structure (i.e. section boundaries and headings).
+We compiled a small parallel ZH-EN Wikipedia Biography article corpus with preserved document structure (i.e. section boundaries and headings). This corpus is also used in our research on [Strucutre Document Neural Machine Translation](https://github.com/JZ95/Exploiting-Document-Substructure-in-Neural-MT)
 
 ## Preprocessing Workflow
 The documents in this corpus are strict translations, NOT comparable articles (i.e., wiki biographies dececribing the same person but written independently). The data is from wikidump, we used the `zhwiki` and `enwiki` dump progress on `20190329`, which might be unavailable right now. We filtered the articles to include only biographies using the `Biography` mark in the Wikipedia metadata, and the parallel ZH-EN articles were further filtered with the `translation` mark. 
@@ -44,4 +44,4 @@ Thanks for the following voulunteer annotators for their contributions in labell
 - [Mandy Xuqi Li](https://github.com/Mandyli1996) 
 - [Yusheng Tian](https://www.linkedin.com/in/yusheng-tian/)
 - [Iris Zipei Wang](https://github.com/iriskarling)
-- Chengyu Wu
+- [Chengyu Wu](https://www.linkedin.com/in/城宇-吴-a60963191/)
